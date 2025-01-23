@@ -10,7 +10,7 @@ Supports adjustable summary length (min and max length sliders).
 
 Provides output in multiple formats:
 
-Plain Text
+## Plain Text
 
 JSON
 
