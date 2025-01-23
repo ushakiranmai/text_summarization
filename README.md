@@ -4,58 +4,39 @@ This repository contains a Python-based text summarization project that uses the
 
 # Features
 
-Summarizes large input texts by splitting them into manageable chunks.
+--Summarizes large input texts by splitting them into manageable chunks.
 
-Supports adjustable summary length (min and max length sliders).
+--Supports adjustable summary length:
 
-Provides output in multiple formats:
+--Max Length Slider: Set the maximum length of the summary.
 
-Here's the updated "Features" section with properly formatted bullet points:
+--Min Length Slider: Set the minimum length of the summary.
 
----
+--Provides output in multiple formats:
 
-## Features
+--**Plain Text**
 
-- Summarizes large input texts by splitting them into manageable chunks.
-- Supports adjustable summary length:
-  - **Max Length Slider**: Set the maximum length of the summary.
-  - **Min Length Slider**: Set the minimum length of the summary.
-- Provides output in multiple formats:
-  - **Plain Text**
-  - **JSON**
-  - **HTML**
-  - **CSV**
-  - **Markdown**
-  - **PDF**
-  - **Excel**
-- Simple and intuitive user interface built with Gradio.
+--**JSON**
 
----
+--**HTML**
 
-This updated section uses bullet points and sub-bullets for better readability and clarity. Let me know if you'd like to make any further changes!
-## Plain Text
+--**CSV**
 
-JSON
+--**Markdown**
 
-HTML
+--**PDF**
 
-CSV
+--**Excel**
 
-Markdown
-
-PDF
-
-Excel
-
-Simple and intuitive user interface built with Gradio.
+--Simple and intuitive user interface built with Gradio.
 
 # Requirements
 
-To run this project, ensure you have the following dependencies installed:
+--To run this project, ensure you have the following dependencies installed:
 
-Python 3.8 or higher
+--**Python 3.8 or higher**
 
-# Required libraries (specified in requirements.txt):
+--Required libraries (specified in requirements.txt):
 
 torch==2.0.1 -f https://download.pytorch.org/whl/torch_stable.html
 transformers>=4.36.2,<5.0.0
@@ -70,49 +51,49 @@ peft>=0.6.0,<1.0.0
 
 # Installation
 
-Clone this repository:
+--Clone this repository:
 
 git clone https://github.com/yourusername/text-summarization-advanced.git
 cd text-summarization-advanced
 
-Create a virtual environment (optional but recommended):
+--Create a virtual environment (optional but recommended):
 
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
-# Install dependencies:
+--Install dependencies:
 
 pip install -r requirements.txt
 
-Usage
+# Usage
 
-# Running the Application
+Running the Application
 
-Start the Gradio interface:
+--Start the Gradio interface:
 
-python app.py
+--**python app.py**
 
-Open your browser and navigate to the provided URL (usually http://127.0.0.1:7860).
+--**Open your browser and navigate to the provided URL (usually http://127.0.0.1:7860).**
 
-Enter text in the input field, adjust summary length, and select the desired output format.
+--**Input your text, adjust summary length, and select the desired output format.**
 
-View or download the summarized content in the selected format.
+--**View the summarized content in the selected format.**
 
-Output Formats
+--Output Formats
 
-Plain Text: Displays the summarized text directly.
+--**Plain Text: Displays the summarized text directly.**
 
-JSON: Returns a JSON object with details about the summary.
+--**JSON: Returns a JSON object with details about the summary.**
 
-HTML: Generates an HTML snippet containing the summary.
+--**HTML: Generates an HTML snippet containing the summary.**
 
-CSV: Produces a CSV format output with original and summarized text.
+--**CSV: Produces a CSV format output with original and summarized text.**
 
-Markdown: Provides a Markdown-formatted summary.
+--**Markdown: Provides a Markdown-formatted summary.**
 
-PDF: Saves the summary as a PDF file.
+--**PDF: Saves the summary as a PDF file.**
 
-Excel: Creates an Excel file with the original and summarized text.
+--**Excel: Creates an Excel file with the original and summarized text.**
 
 # Project Structure
 
@@ -130,14 +111,14 @@ The summarization model used is sshleifer/distilbart-cnn-12-6, a lightweight ver
 
 # Acknowledgments
 
-Hugging Face for the Transformers library.
+--**Hugging Face for the Transformers library.**
 
-Gradio for providing an easy-to-use interface framework.
+--**Gradio for providing an easy-to-use interface framework.**
 
-FPDF for PDF generation.
+--**FPDF for PDF generation.**
 
-Pandas for data manipulation and Excel export.
+--**Pandas for data manipulation and Excel export.**
 
 # Contact
 
-For any questions or feedback, please reach out to [pamuusha1974@gmail.com].
+For any questions or feedback, please reach out to [oamuusha1974@gmail.com].
