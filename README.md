@@ -14,7 +14,7 @@ This repository contains a Python-based text summarization project that uses the
 
 --Provides output in multiple formats:
 
-**Plain Text**
+--**Plain Text**
 
 --**JSON**
 
@@ -29,6 +29,22 @@ This repository contains a Python-based text summarization project that uses the
 --**Excel**
 
 --Simple and intuitive user interface built with Gradio.
+
+# Features
+
+- Summarizes large input texts by splitting them into manageable chunks.
+- Supports adjustable summary length:
+  - **Max Length Slider**: Set the maximum length of the summary.
+  - **Min Length Slider**: Set the minimum length of the summary.
+- Provides output in multiple formats:
+  - **Plain Text**
+  - **JSON**
+  - **HTML**
+  - **CSV**
+  - **Markdown**
+  - **PDF**
+  - **Excel**
+
 
 # Requirements
 
