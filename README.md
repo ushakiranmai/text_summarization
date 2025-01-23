@@ -14,7 +14,7 @@ This repository contains a Python-based text summarization project that uses the
 
 --Provides output in multiple formats:
 
--- **Plain Text**
+**Plain Text**
 
 --**JSON**
 
