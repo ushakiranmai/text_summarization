@@ -10,6 +10,29 @@ Supports adjustable summary length (min and max length sliders).
 
 Provides output in multiple formats:
 
+Here's the updated "Features" section with properly formatted bullet points:
+
+---
+
+## Features
+
+- Summarizes large input texts by splitting them into manageable chunks.
+- Supports adjustable summary length:
+  - **Max Length Slider**: Set the maximum length of the summary.
+  - **Min Length Slider**: Set the minimum length of the summary.
+- Provides output in multiple formats:
+  - **Plain Text**
+  - **JSON**
+  - **HTML**
+  - **CSV**
+  - **Markdown**
+  - **PDF**
+  - **Excel**
+- Simple and intuitive user interface built with Gradio.
+
+---
+
+This updated section uses bullet points and sub-bullets for better readability and clarity. Let me know if you'd like to make any further changes!
 ## Plain Text
 
 JSON
